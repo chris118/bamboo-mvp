@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--NavigationBar-->
+    <color name="navigation_bar_background_color_light">#FFFDF8</color>
+    <color name="divider_color">#E1E1E1</color>
+    <color name="blue">#0076FF</color>
+    <color name="popup_background">#66000000</color>
+
+    <color name="color_646464">#646464</color>
+    <color name="color_black">#000000</color>
+    <color name="color_white">#FFFFFF</color>
+
+
+
+</resources>
