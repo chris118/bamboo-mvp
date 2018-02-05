@@ -16,7 +16,7 @@ import butterknife.OnClick;
  * 选择弹框
  * Created by chrisw on 2015/12/1.
  */
-public abstract class SelectPopupWindow extends BasicPopupWindow implements View.OnClickListener {
+public abstract class SelectPopupWindow extends BasicPopupWindow {
     @BindView(R2.id.ll_first)
     public LinearLayout ll_first;
     @BindView(R2.id.ll_second)
@@ -62,17 +62,20 @@ public abstract class SelectPopupWindow extends BasicPopupWindow implements View
         return R.layout.popup_select;
     }
 
-    @OnClick({R2.id.ll_first, R2.id.ll_second, R2.id.ll_cancel})
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R2.id.ll_first:
-                onFirstClick(v);
-                break;
-            case R2.id.ll_second:
-                onSecondClick(v);
-                break;
-        }
+    @OnClick(R2.id.ll_first)
+    public void firstClicked(View v){
+        onFirstClick(v);
+        dismiss();
+    }
+
+    @OnClick(R2.id.ll_second)
+    public void secondClicked(View v){
+        onSecondClick(v);
+        dismiss();
+    }
+
+    @OnClick(R2.id.ll_cancel)
+    public void cancelClicked(){
         dismiss();
     }
 

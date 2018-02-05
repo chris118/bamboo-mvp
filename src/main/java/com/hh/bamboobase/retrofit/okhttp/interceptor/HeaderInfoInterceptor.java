@@ -1,5 +1,7 @@
 package com.hh.bamboobase.retrofit.okhttp.interceptor;
 
+import com.hh.bamboobase.base.BaseApplication;
+
 import java.io.IOException;
 
 import okhttp3.Interceptor;
@@ -15,6 +17,8 @@ public class HeaderInfoInterceptor implements Interceptor {
     private int deviceType;
     private int appType;
     private String device_id;
+    private String token;
+    private String instId;
 
 
     public HeaderInfoInterceptor(int deviceType, int appType, String device_id) {
@@ -26,13 +30,26 @@ public class HeaderInfoInterceptor implements Interceptor {
     @Override
     public Response intercept(Chain chain) throws IOException {
 
-        Request request = chain.request();
-        Request newHeaderRequest = request.newBuilder()
-                .addHeader("DeviceType", String.valueOf(deviceType))
-                .addHeader("AppType", String.valueOf(appType))
-                .addHeader("DeviceUniqueId", device_id)
-                .build();
+        String token = BaseApplication.getInstance().getAuthorToken();
+        String instId = BaseApplication.getInstance().getAutorInstId();
 
-        return chain.proceed(newHeaderRequest);
+        Request request = chain.request();
+        if(token == null || token.length() == 0){
+            Request newHeaderRequest = request.newBuilder()
+                    .addHeader("DeviceType", String.valueOf(deviceType))
+                    .addHeader("AppType", String.valueOf(appType))
+                    .addHeader("DeviceUniqueId", device_id)
+                    .build();
+            return chain.proceed(newHeaderRequest);
+        }else {
+             Request newHeaderRequest = request.newBuilder()
+                    .addHeader("DeviceType", String.valueOf(deviceType))
+                    .addHeader("AppType", String.valueOf(appType))
+                    .addHeader("DeviceUniqueId", device_id)
+                     .addHeader("token", token)
+                     .addHeader("InstId", instId)
+                     .build();
+            return chain.proceed(newHeaderRequest);
+        }
     }
 }

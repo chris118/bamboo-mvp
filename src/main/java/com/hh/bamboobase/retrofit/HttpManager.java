@@ -4,10 +4,12 @@ import android.app.Application;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.hh.bamboobase.base.BaseApplication;
 import com.hh.bamboobase.retrofit.okhttp.AppUtils;
 import com.hh.bamboobase.retrofit.okhttp.Logger;
 import com.hh.bamboobase.retrofit.okhttp.interceptor.CacheStrategyInterceptor;
 import com.hh.bamboobase.retrofit.okhttp.interceptor.HeaderInfoInterceptor;
+import com.hh.bamboobase.retrofit.okhttp.interceptor.ResponseInterceptor;
 
 import java.util.concurrent.TimeUnit;
 
@@ -74,6 +76,7 @@ public class HttpManager {
         });
         loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
         builder.addInterceptor(loggingInterceptor);
+        builder.addInterceptor(new ResponseInterceptor());
         builder.addInterceptor(new CacheStrategyInterceptor(mAppliction));
         builder.addInterceptor(new HeaderInfoInterceptor(0, 6, AppUtils.getRealDeviceId(mAppliction)));
 

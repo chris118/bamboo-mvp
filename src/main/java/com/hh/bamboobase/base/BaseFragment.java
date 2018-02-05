@@ -67,7 +67,7 @@ public abstract class BaseFragment extends RxFragment {
         }
     }
 
-    public void onNext(Object object) {
+    protected void onNext(Object object) {
 
     }
 
@@ -150,7 +150,7 @@ public abstract class BaseFragment extends RxFragment {
      *
      * @param view
      */
-    public void responseToLeftView(View view) {
+    protected void responseToLeftView(View view) {
     }
 
     /**

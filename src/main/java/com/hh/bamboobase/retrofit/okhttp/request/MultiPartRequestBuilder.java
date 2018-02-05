@@ -1,5 +1,7 @@
 package com.hh.bamboobase.retrofit.okhttp.request;
 
+import android.util.Log;
+
 import com.hh.bamboobase.retrofit.okhttp.Logger;
 import com.hh.bamboobase.retrofit.okhttp.progress.ProgressRequestBody;
 import com.hh.bamboobase.retrofit.okhttp.progress.ProgressRequestListener;
@@ -81,6 +83,13 @@ public class MultiPartRequestBuilder {
      * @return 请求体
      */
     public Request build(String url) {
+        for (String name : headers.keySet()) {
+            Object value = headers.get(name);
+            builder.addHeader(name, String.valueOf(value));
+        }
+        Logger.d(TAG, "请求Header" + "\n" + "请求 头:" + "\n" + formatHeader(headers));
+
+
         MultipartBody.Builder builder = new MultipartBody.Builder();
         builder.setType(MultipartBody.FORM);
         for (String name : params.keySet()) {
@@ -99,19 +108,21 @@ public class MultiPartRequestBuilder {
     }
 
     private MediaType getMediaType(File file) {
-        String fileName = file.getName();
-        String prefix = fileName.substring(fileName.lastIndexOf(".") + 1);
-        switch (prefix) {
-            case "png":
-                return MediaType.parse("image/png");
-            case "jpg":
-                return MediaType.parse("image/jpeg");
-            case "mp4":
-                return MediaType.parse("video/mp4");
-            case "mp3":
-                return MediaType.parse("audio/mpeg");
-        }
-        return null;
+        return MediaType.parse("application/octet-stream");
+
+//        String fileName = file.getName();
+//        String prefix = fileName.substring(fileName.lastIndexOf(".") + 1);
+//        switch (prefix) {
+//            case "png":
+//                return MediaType.parse("image/png");
+//            case "jpg":
+//                return MediaType.parse("image/jpeg");
+//            case "mp4":
+//                return MediaType.parse("video/mp4");
+//            case "mp3":
+//                return MediaType.parse("audio/mpeg");
+//        }
+//        return null;
     }
 
     /**
@@ -123,6 +134,19 @@ public class MultiPartRequestBuilder {
         StringBuffer sb = new StringBuffer();
         for (String name : params.keySet()) {
             sb.append(name).append("=").append(params.get(name)).append("\n");
+        }
+        return sb.delete(sb.length() - 1, sb.length()).toString();
+    }
+
+    /**
+     * 格式化显示头信息
+     *
+     * @return 头信息
+     */
+    private String formatHeader(Map<String, String> headers) {
+        StringBuffer sb = new StringBuffer();
+        for (String name : headers.keySet()) {
+            sb.append(name).append("=").append(headers.get(name)).append("\n");
         }
         return sb.delete(sb.length() - 1, sb.length()).toString();
     }

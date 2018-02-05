@@ -17,7 +17,7 @@ import com.tencent.bugly.crashreport.CrashReport;
 /**
  * Created by chrisw on 16/8/5.
  */
-public class BaseApplication extends MultiDexApplication {
+public abstract class BaseApplication extends MultiDexApplication {
     protected static BaseApplication mInstance;
 
     public static BaseApplication getInstance() {
@@ -36,7 +36,7 @@ public class BaseApplication extends MultiDexApplication {
         HttpManager.getInstance().init(this);
 
         //初始化crash统计
-        CrashReport.initCrashReport(mInstance, "578e124e08", true);
+        CrashReport.initCrashReport(mInstance, "fd8a4cd4c9", true);
 
         //初始化LeakCanary
         if (!LeakCanary.isInAnalyzerProcess(this)) {
@@ -48,6 +48,16 @@ public class BaseApplication extends MultiDexApplication {
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
         MultiDex.install(this);
+    }
+
+    protected abstract String getToken();
+    protected abstract String getInstId();
+
+    public String getAuthorToken(){
+        return getToken();
+    }
+    public String getAutorInstId(){
+        return getInstId();
     }
 
     private int appCount;
