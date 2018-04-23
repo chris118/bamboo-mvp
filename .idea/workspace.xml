@@ -10,235 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae556bb4-80e7-4f8f-b320-5b331ff42b92" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_alibaba_fastjson_1_2_16_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_0_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_25_3_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_2_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_2_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_exposed_instrumentation_api_publish_0_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_0_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_0_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_25_3_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_contrarywind_Android_PickerView_3_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_annotations_4_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_disklrucache_4_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_0_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_2_11_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_8_8_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_annotations_8_8_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_rxbinding_rxbinding_0_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_kaopiz_kprogresshud_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_haha_haha_2_0_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_analyzer_1_5_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_android_1_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_android_no_op_1_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_leakcanary_leakcanary_watcher_1_5_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_logging_interceptor_3_6_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_8_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_13_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_adapter_rxjava_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_tbruyelle_rxpermissions_rxpermissions_0_9_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_tencent_bugly_crashreport_2_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_tencent_bugly_nativecrashreport_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_trello_rxlifecycle_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_trello_rxlifecycle_android_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_trello_rxlifecycle_components_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yanzhenjie_alertdialog_alertdialog_1_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yanzhenjie_permission_1_0_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_luizgrp_sectionedrecyclerviewadapter_sectionedrecyclerviewadapter_1_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxandroid_1_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava_1_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_2_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_all_1_10_19_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_simple_androideventbus_1_0_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/bamboobase.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bintray.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/proguard-rules.pro" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/androidTest/java/com/hh/bamboobase/ExampleInstrumentedTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/MyAppGlideModule.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/base/BaseActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/base/BaseApplication.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/base/BaseFragment.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/base/BaseViewHolderHelper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/base/MvpActivity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/base/MvpFragment.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/base/RecyclerViewBaseAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/base/mvp/BasePresenter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/base/mvp/IModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/base/mvp/IPresenter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/base/mvp/IView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/command/Command.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/command/CommandHelper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/command/CommandMeditor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/command/CommandSubscriber.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/HttpManager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/RxRetrofitComposer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/model/Model1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/model/Model2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/model/Model3.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/okhttp/AppUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/okhttp/Logger.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/okhttp/OkHttpDownloader.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/okhttp/interceptor/CacheStrategyInterceptor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/okhttp/interceptor/HeaderInfoInterceptor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/okhttp/interceptor/ProgressInterceptor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/okhttp/interceptor/ResponseInterceptor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/okhttp/progress/ProgressModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/okhttp/progress/ProgressRequestBody.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/okhttp/progress/ProgressRequestListener.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/okhttp/progress/ProgressResponseBody.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/okhttp/progress/ProgressResponseListener.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/okhttp/progress/UIProgressRequestListener.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/okhttp/progress/UIProgressResponseListener.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/okhttp/request/MultiPartRequestBuilder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/subscriber/ApiSubscriber.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/subscriber/ApiSubscriber1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/subscriber/ApiSubscriber2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/retrofit/subscriber/ApiSubscriber3.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/rx/RxBus.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/rx/RxEvent.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/utils/BitmapUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/utils/DensityUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/utils/FileProvider7.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/utils/FileUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/utils/ImageUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/utils/NetworkUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/utils/NotifyUtil.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/utils/PreferencesUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/utils/RxHelper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/utils/SDCardUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/utils/TimeUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/utils/ToastUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/utils/UUIDUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/utils/ZipFileUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/utils/entity/ExtInfo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/utils/json/JsonScope.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/utils/json/JsonWriter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/BasePopView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/ClearEditText.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/Hud.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/LoadingDialog.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/NavigationBar.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/NoHorizontalScrollerViewPager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/SideBar.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/SwitchButton.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/ViewPagerFixed.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/WRToast.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/divider/DividerGridItemDecoration.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/divider/DividerItemDecoration.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/popupwindow/BasicPopupWindow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/popupwindow/SelectPopupWindow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/ScrollRunner.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/XRefreshContentView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/XRefreshHolder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/XRefreshView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/XRefreshViewFooter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/XRefreshViewHeader.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/XRefreshViewState.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/XScrollView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/callback/IFooterCallBack.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/callback/IHeaderCallBack.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/listener/OnBottomLoadMoreTime.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/listener/OnTopRefreshTime.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/recyclerview/BaseRecyclerAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/recyclerview/RecyclerViewDataObserver.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/recyclerview/XSpanSizeLookup.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/utils/LogUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/utils/Utils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/view/NoMoreDataFooterView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hh/bamboobase/widget/refreshview/view/XWebView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/default_ptr_rotate.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/icon_14_clean.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/icon_20_10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/icon_20_11.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/icon_24_arrow_refresh.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/loading_logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/loading_rotation.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_10.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_11.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_12.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_13.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_14.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_15.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_17.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_18.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_19.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_20.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_21.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_22.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_23.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_24.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_25.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_26.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_27.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_28.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_29.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_30.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_31.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_5.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_6.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_7.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_8.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/progress_9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/toast_n.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/toast_y.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/xrefresh_ok.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable-xhdpi/xrefreshview_arrow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/btn_select.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/drawable_anim.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/loading_dialog_bg.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/sildebar_bg.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/drawable/toast_back.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/dialog_loading.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/popup_select.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/toast_layout.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/widget_navigation_bar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/xrefreshview_footer.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/xrefreshview_header.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values/attrs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values/colors.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values/ids.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values/styles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hh/bamboobase/ExampleUnitTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/base/BaseActivity.java" afterPath="$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/base/BaseActivity.java" />
+      <change beforePath="$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/base/mvp/BasePresenter.java" afterPath="$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/base/mvp/BasePresenter.java" />
+      <change beforePath="$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/retrofit/okhttp/interceptor/ResponseInterceptor.java" afterPath="$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/retrofit/okhttp/interceptor/ResponseInterceptor.java" />
+      <change beforePath="$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/rx/RxBus.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/rx/RxEvent.java" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -261,111 +37,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/base/BaseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="43" column="55" lean-forward="false" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+            <state relative-caret-position="158">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
+      <file leaf-file-name="BasePresenter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/base/mvp/BasePresenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="53">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/retrofit/okhttp/interceptor/ResponseInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RxHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/utils/RxHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadingDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/widget/LoadingDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2">
+              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TSLoadingDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/widget/TSLoadingDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <element signature="e#681#699#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeaderInfoInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/retrofit/okhttp/interceptor/HeaderInfoInterceptor.java">
+      <file leaf-file-name="Hud.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/widget/Hud.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="120">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/account/ui/LoginActivity.java">
+      <file leaf-file-name="KProgressHUD.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kaopiz/kprogresshud/1.1.0/580fb188ad3c665556f0b71cbde18aa1651b326d/kprogresshud-1.1.0-sources.jar!/com/kaopiz/kprogresshud/KProgressHUD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+            <state relative-caret-position="-6077">
+              <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_login.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="btn_back_w_nor.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/btn_back_w_nor.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="avatar.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/avatar.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_menu.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main_menu.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services_menu.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/services_menu.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
           </provider>
         </entry>
       </file>
@@ -379,6 +129,7 @@
       <find>sectionedrecyclerviewadapter</find>
       <find>validate</find>
       <find>luo</find>
+      <find>WR</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -3920,13 +3671,17 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/api/BaseUrl.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/api/WRHttpManager.java" />
         <option value="$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/base/BaseApplication.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/WRApplication.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/account/presenter/LoginPresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/account/model/entity/LoginResponse.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/retrofit/okhttp/interceptor/HeaderInfoInterceptor.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/account/ui/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/WRApplication.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/TSApplication.java" />
+        <option value="$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/retrofit/okhttp/interceptor/ResponseInterceptor.java" />
+        <option value="$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/base/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/base/mvp/BasePresenter.java" />
       </list>
     </option>
   </component>
@@ -3960,6 +3715,67 @@
             <path>
               <item name="bamboo-mvp" type="b2602c69:ProjectViewProjectNode" />
               <item name="bamboo-mvp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo-mvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo-mvp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo-mvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo-mvp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bamboobase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo-mvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo-mvp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bamboobase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo-mvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo-mvp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bamboobase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo-mvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo-mvp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bamboobase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo-mvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo-mvp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bamboobase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboobase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo-mvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo-mvp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bamboobase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboobase" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bamboo-mvp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bamboo-mvp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="bamboobase" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bamboobase" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="mvp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -4165,6 +3981,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="23" width="1395" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -4176,14 +3993,14 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29776022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32224685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -4206,104 +4023,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding>
-            <element signature="e#681#699#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/api/BaseUrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="79" lean-forward="false" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboobase/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="121" column="44" lean-forward="false" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="62" lean-forward="false" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/main/ui/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4530">
-          <caret line="348" column="0" lean-forward="true" selection-start-line="348" selection-start-column="0" selection-end-line="348" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboobase/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="121" column="44" lean-forward="false" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/main/ui/activity/DeviceControlActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/main/ui/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-518">
-          <caret line="336" column="27" lean-forward="false" selection-start-line="336" selection-start-column="27" selection-end-line="336" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="62" lean-forward="false" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/api/StartupApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/util/RssiUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -4341,41 +4060,6 @@
         <state relative-caret-position="42">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/widget/WRLoadingDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/widget/RecycleViewDivider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/base/BaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/api/WRHttpManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding>
-            <element signature="e#322#323#0" expanded="false" />
-            <element signature="e#383#384#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4444,14 +4128,6 @@
             <element signature="e#1414#1415#0" expanded="false" />
             <element signature="e#1466#1467#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/WRApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4570,14 +4246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="43" column="55" lean-forward="false" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest">
         <state />
@@ -4586,7 +4254,7 @@
         <state relative-caret-position="150">
           <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding>
-            <element signature="e#681#699#0" expanded="true" />
+            <element signature="e#681#699#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4599,21 +4267,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/TSApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        <state relative-caret-position="120">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="26" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/api/TSHttpManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/account/ui/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+        <state relative-caret-position="255">
+          <caret line="32" column="31" lean-forward="false" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/widget/RecycleViewDivider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/base/BaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="974">
+          <caret line="89" column="56" lean-forward="true" selection-start-line="89" selection-start-column="56" selection-end-line="89" selection-end-column="56" />
+          <folding>
+            <element signature="e#2416#2417#0" expanded="false" />
+            <element signature="e#2450#2451#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/base/MvpActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/base/MvpFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/base/RecyclerViewBaseAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/rx/RxEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kaopiz/kprogresshud/1.1.0/580fb188ad3c665556f0b71cbde18aa1651b326d/kprogresshud-1.1.0-sources.jar!/com/kaopiz/kprogresshud/KProgressHUD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6077">
+          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/widget/Hud.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/utils/RxHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/widget/LoadingDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/hh/bambooapp/widget/TSLoadingDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/retrofit/okhttp/interceptor/ResponseInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/rx/RxBus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="36" column="15" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/base/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bamboobase/src/main/java/com/hh/bamboobase/base/mvp/BasePresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>

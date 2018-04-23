@@ -10,7 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.hh.bamboobase.R;
-import com.hh.bamboobase.rx.RxBus;
 import com.hh.bamboobase.widget.NavigationBar;
 import com.kaopiz.kprogresshud.KProgressHUD;
 import com.trello.rxlifecycle.components.support.RxFragment;
@@ -63,7 +62,6 @@ public abstract class BaseFragment extends RxFragment {
             initNavigationBar();
             initView();
             initComplete();
-            subscribeEvents();
         }
     }
 
@@ -185,15 +183,6 @@ public abstract class BaseFragment extends RxFragment {
         if (mActivity != null) {
             mActivity.rxClick(view, action1);
         }
-    }
-
-    protected void subscribeEvents() {
-        mSubscription = RxBus.subscribe(new Action1<Object>() {
-            @Override
-            public void call(Object o) {
-                onNext(o);
-            }
-        });
     }
 
     protected void unsubscribeEvents() {

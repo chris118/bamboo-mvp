@@ -1,9 +1,6 @@
 package com.hh.bamboobase.base.mvp;
 
-import com.hh.bamboobase.rx.RxBus;
-
 import rx.Subscription;
-import rx.functions.Action1;
 import rx.subscriptions.CompositeSubscription;
 
 /**
@@ -20,7 +17,6 @@ public abstract class BasePresenter<V extends IView, M extends IModel>  implemen
     public BasePresenter(V view) {
         this.mView = view;
         mModel = createModel();
-        subscribeEvents();
     }
 
     protected abstract M createModel();
@@ -31,15 +27,6 @@ public abstract class BasePresenter<V extends IView, M extends IModel>  implemen
         this.mView = null;
         unsubscribeEvents();
         unSubscribe();
-    }
-
-    protected void subscribeEvents() {
-        mSubscription = RxBus.subscribe(new Action1<Object>() {
-            @Override
-            public void call(Object o) {
-                onNext(o);
-            }
-        });
     }
 
     protected void onNext(Object event) {

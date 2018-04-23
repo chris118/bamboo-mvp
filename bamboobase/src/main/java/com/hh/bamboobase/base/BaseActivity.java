@@ -9,7 +9,6 @@ import android.view.KeyEvent;
 import android.view.View;
 
 import com.hh.bamboobase.R;
-import com.hh.bamboobase.rx.RxBus;
 import com.hh.bamboobase.utils.RxHelper;
 import com.hh.bamboobase.widget.NavigationBar;
 import com.kaopiz.kprogresshud.KProgressHUD;
@@ -46,22 +45,12 @@ public abstract class BaseActivity extends RxAppCompatActivity {
         preInit(savedInstanceState);
         initView();
         initComplete();
-        subscribeEvents();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
         BaseApplication.getInstance().setCurrentActivityName(getLocalClassName());
-    }
-
-    protected void subscribeEvents() {
-        mSubscription = RxBus.subscribe(new Action1<Object>() {
-            @Override
-            public void call(Object o) {
-                onNext(o);
-            }
-        });
     }
 
     protected void onNext(Object event) {
@@ -234,10 +223,6 @@ public abstract class BaseActivity extends RxAppCompatActivity {
 
     public void rxlongClick(View view, Action1<Void> action1) {
         addSubscribe(RxHelper.longClicks(view, action1));
-    }
-
-    protected void post(Object object) {
-        RxBus.getDefaultBus().publish(object);
     }
 
 }
