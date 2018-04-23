@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'hhit'
+            keyPassword '111111'
+            storeFile file('../keystore_hhit_111111.jks')
+            storePassword '111111'
+        }
+    }
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+    defaultConfig {
+        applicationId "com.hh.bambooapp"
+        minSdkVersion 17
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            zipAlignEnabled true
+            shrinkResources false
+            signingConfig signingConfigs.config
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //local
+    compile project(':bamboobase')
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    androidTestCompile(rootProject.ext.dependencies["junit"])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile(rootProject.ext.dependencies["junit"])
+    testCompile(rootProject.ext.dependencies["mockito"])
+    compile(rootProject.ext.dependencies["appcompat-v7"])
+    compile(rootProject.ext.dependencies["design"])
+    compile(rootProject.ext.dependencies["constraint-layout"])
+    compile(rootProject.ext.dependencies["recyclerview-v7"])
+    compile(rootProject.ext.dependencies["support-v4"])
+    annotationProcessor rootProject.ext.dependencies["dagger2-compiler"]
+    compile(rootProject.ext.dependencies["butterknife"]) {
+        exclude module: 'support-annotations'
+    }
+    compile(rootProject.ext.dependencies["sectionedrecyclerviewadapter"])
+    annotationProcessor(rootProject.ext.dependencies["butterknife-compiler"]) {
+        exclude module: 'support-annotations'
+        exclude module: 'butterknife-annotations'
+    }
+}

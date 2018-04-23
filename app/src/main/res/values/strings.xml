@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BambooApp</string>
+    <string name="title_activity_preview_image">PreviewImageActivity</string>
+</resources>

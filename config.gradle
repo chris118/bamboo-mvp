@@ -1,0 +1,91 @@
+ext {
+
+    android = [
+               compileSdkVersion       : 25,
+               buildToolsVersion       : "25.0.3",
+               minSdkVersion           : 15,
+               targetSdkVersion        : 25,
+               versionCode             : 2,
+               versionName             : "1.0.2"
+    ]
+
+     version = [
+                   androidSupportSdkVersion         : "25.3.1",
+                   junitVersion                     : '4.12',
+                   mockitoVersion                   : '1.10.19',
+                   retrofitSdkVersion               : "2.3.0",
+                   okhttpSdkVersion                 : "3.8.1",
+                   dagger2SdkVersion                : "2.11",
+                   butterknifeSdkVersion            : "8.7.0",
+                   glideVersion                     : "4.0.0",
+                   rxlifecycleVersion               : "1.0",
+                   okhttp3lggingVersion             : "3.6.0",
+                   SmartRefreshLayoutVersion        : "1.0.3",
+                   kprogresshudVersion              : "1.1.0",
+                   multidexVersion                  : "1.0.0",
+                   buglyCrashreportVersion          : "2.2.2",
+                   buglyNativecrashreportVersion    : "3.0",
+                   leakcanaryVersion                : "1.5.1",
+                   butterknifeVersion               : "8.8.1",
+                   AndroidPickerViewVersion         : "3.2.6",
+                   fastjson                         : "1.2.16",
+                   AndPermission                    : "1.0.7",
+
+     ]
+
+    dependencies = [
+                //test
+                "junit"                    : "junit:junit:${version["junitVersion"]}",
+                "mockito"                  : "org.mockito:mockito-all:${version["mockitoVersion"]}",
+
+                //support
+                "appcompat-v7"             : "com.android.support:appcompat-v7:${version["androidSupportSdkVersion"]}",
+                "design"                   : "com.android.support:design:${version["androidSupportSdkVersion"]}",
+                "support-v4"               : "com.android.support:support-v4:${version["androidSupportSdkVersion"]}",
+                "cardview-v7"              : "com.android.support:cardview-v7:${version["androidSupportSdkVersion"]}",
+                "annotations"              : "com.android.support:support-annotations:${version["androidSupportSdkVersion"]}",
+                "recyclerview-v7"          : "com.android.support:recyclerview-v7:${version["androidSupportSdkVersion"]}",
+                "constraint-layout"        : "com.android.support.constraint:constraint-layout:1.0.2",
+
+                //tools
+                "dagger2"                  : "com.google.dagger:dagger:${version["dagger2SdkVersion"]}",
+                "dagger2-compiler"         : "com.google.dagger:dagger-compiler:${version["dagger2SdkVersion"]}",
+                "gson"                     : "com.google.code.gson:gson:2.8.1",
+                "butterknife"              : "com.jakewharton:butterknife:${version["butterknifeSdkVersion"]}",
+                "butterknife-compiler"     : "com.jakewharton:butterknife-compiler:${version["butterknifeSdkVersion"]}",
+                "androideventbus"          : "org.simple:androideventbus:1.0.5.1",
+                "rxpermissions"            : "com.tbruyelle.rxpermissions:rxpermissions:0.9.4@aar",
+                "multidex"                 : "com.android.support:multidex:${version["multidexVersion"]}",
+                "bugly-crashreport"        : "com.tencent.bugly:crashreport:${version["buglyCrashreportVersion"]}",
+                "bugly-nativecrashreport"  : "com.tencent.bugly:nativecrashreport:${version["buglyNativecrashreportVersion"]}",
+                "leakcanary-android"       : "com.squareup.leakcanary:leakcanary-android:${version["leakcanaryVersion"]}",
+                "leakcanary-android-no-op" : "com.squareup.leakcanary:leakcanary-android-no-op:${version["leakcanaryVersion"]}",
+                "butterknife"              : "com.jakewharton:butterknife:${version["butterknifeVersion"]}",
+                "butterknife-compiler"     : "com.jakewharton:butterknife-compiler:${version["butterknifeVersion"]}",
+                "fastjson"                 : "com.alibaba:fastjson:${version["fastjson"]}",
+                "AndPermission"            : "com.yanzhenjie:permission:${version["AndPermission"]}",
+
+                //rx1
+                "rxandroid"                : "io.reactivex:rxandroid:1.2.1",
+                "rxjava"                   : "io.reactivex:rxjava:1.3.0",
+                "rxlifecycle"              : "com.trello:rxlifecycle:${version["rxlifecycleVersion"]}",
+                "rxlifecycle-components"   : "com.trello:rxlifecycle-components:${version["rxlifecycleVersion"]}",
+
+                //network
+                "retrofit"                 : "com.squareup.retrofit2:retrofit:${version["retrofitSdkVersion"]}",
+                "retrofit-converter-gson"  : "com.squareup.retrofit2:converter-gson:${version["retrofitSdkVersion"]}",
+                "retrofit-adapter-rxjava"  : "com.squareup.retrofit2:adapter-rxjava:${version["retrofitSdkVersion"]}",
+                "okhttp3"                  : "com.squareup.okhttp3:okhttp:${version["okhttpSdkVersion"]}",
+                "okhttp3-logging"          : "com.squareup.okhttp3:logging-interceptor:${version["okhttp3lggingVersion"]}",
+
+                "glide"                    : "com.github.bumptech.glide:glide:${version["glideVersion"]}",
+                "glide-compiler"           : "com.github.bumptech.glide:compiler:${version["glideVersion"]}",
+
+                //UI
+                "SmartRefreshLayout"       : "com.scwang.smartrefresh:SmartRefreshLayout:${version["SmartRefreshLayoutVersion"]}",
+                "kprogresshud"             : "com.kaopiz:kprogresshud:${version["kprogresshudVersion"]}",
+                "Android-PickerView"       : "com.contrarywind:Android-PickerView:${version["AndroidPickerViewVersion"]}",
+                "sectionedrecyclerviewadapter" : "io.github.luizgrp.sectionedrecyclerviewadapter:sectionedrecyclerviewadapter:1.1.3"
+
+    ]
+}
