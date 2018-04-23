@@ -13,12 +13,12 @@ import com.hh.bambooapp.R;
  * Created by xiaopeng on 2017/8/1.
  */
 
-public class WRLoadingDialog extends Dialog {
+public class TSLoadingDialog extends Dialog {
     private ImageView progressImg;
     //帧动画
     private AnimationDrawable animation;
 
-    public WRLoadingDialog(@NonNull Context context) {
+    public TSLoadingDialog(@NonNull Context context) {
         super(context, R.style.LoadingDialog);
     }
 
@@ -54,9 +54,9 @@ public class WRLoadingDialog extends Dialog {
         animation.stop();
     }
 
-    static WRLoadingDialog dialog;
+    static TSLoadingDialog dialog;
     public static void show(Context context){
-        dialog = new WRLoadingDialog(context);
+        dialog = new TSLoadingDialog(context);
         if(dialog != null){
             dialog.show();
         }

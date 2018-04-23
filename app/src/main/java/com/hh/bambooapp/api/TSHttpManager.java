@@ -6,12 +6,12 @@ import com.hh.bamboobase.retrofit.HttpManager;
  * Created by chrisw on 2017/11/8.
  */
 
-public class WRHttpManager {
+public class TSHttpManager {
     private static class SingletonHolder {
-        private static final WRHttpManager instance = new WRHttpManager();
+        private static final TSHttpManager instance = new TSHttpManager();
     }
-    public static WRHttpManager getInstance() {
-        return WRHttpManager.SingletonHolder.instance;
+    public static TSHttpManager getInstance() {
+        return TSHttpManager.SingletonHolder.instance;
     }
 
     public UserApi getUserApi() {

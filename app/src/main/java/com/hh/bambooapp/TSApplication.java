@@ -1,7 +1,6 @@
 package com.hh.bambooapp;
 
 import com.hh.bambooapp.api.BaseUrl;
-import com.hh.bambooapp.api.WRHttpManager;
 import com.hh.bamboobase.base.BaseApplication;
 import com.hh.bamboobase.utils.PreferencesUtils;
 
@@ -9,8 +8,8 @@ import com.hh.bamboobase.utils.PreferencesUtils;
  * Created by chrisw on 2017/10/30.
  */
 
-public class WRApplication extends BaseApplication {
-    public WRApplication() {
+public class TSApplication extends BaseApplication {
+    public TSApplication() {
 
     }
 
