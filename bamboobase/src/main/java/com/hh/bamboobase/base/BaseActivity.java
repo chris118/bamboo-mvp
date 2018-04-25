@@ -14,6 +14,8 @@ import com.hh.bamboobase.widget.NavigationBar;
 import com.kaopiz.kprogresshud.KProgressHUD;
 import com.trello.rxlifecycle.components.support.RxAppCompatActivity;
 
+import org.simple.eventbus.EventBus;
+
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import rx.Subscription;
@@ -40,6 +42,7 @@ public abstract class BaseActivity extends RxAppCompatActivity {
         BaseApplication.getInstance().setCurrentActivityName(getLocalClassName());
         setContentView(layoutResId());
         mUnbinder = ButterKnife.bind(this);
+        EventBus.getDefault().register(this);
         mContext = this;
         initNavigationBar();
         preInit(savedInstanceState);
@@ -182,6 +185,7 @@ public abstract class BaseActivity extends RxAppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        EventBus.getDefault().unregister(this);
         unSubscribe();
         unsubscribeEvents();
         dismiss();
