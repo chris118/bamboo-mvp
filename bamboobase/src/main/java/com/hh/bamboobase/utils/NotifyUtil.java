@@ -6,8 +6,9 @@ import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
-import android.support.v7.app.NotificationCompat;
 import android.util.SparseArray;
+
+import androidx.core.app.NotificationCompat;
 
 @SuppressLint("NewApi")
 public class NotifyUtil {

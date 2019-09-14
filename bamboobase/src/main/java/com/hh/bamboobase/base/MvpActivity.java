@@ -1,7 +1,8 @@
 package com.hh.bamboobase.base;
 
 import android.os.Bundle;
-import android.support.annotation.CallSuper;
+
+import androidx.annotation.CallSuper;
 
 import com.hh.bamboobase.base.mvp.IPresenter;
 

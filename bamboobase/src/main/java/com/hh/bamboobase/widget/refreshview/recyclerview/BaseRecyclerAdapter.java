@@ -1,15 +1,16 @@
 package com.hh.bamboobase.widget.refreshview.recyclerview;
 
 import android.content.Context;
-import android.support.annotation.LayoutRes;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.widget.FrameLayout;
 
+
+import androidx.annotation.LayoutRes;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import com.hh.bamboobase.widget.refreshview.XRefreshView;
 import com.hh.bamboobase.widget.refreshview.callback.IFooterCallBack;

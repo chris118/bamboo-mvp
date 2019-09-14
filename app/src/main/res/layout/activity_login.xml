@@ -25,41 +25,21 @@
         </FrameLayout>
 
 
-        <android.support.design.widget.TextInputLayout
+        <com.hh.bamboobase.widget.ClearEditText
+            android:id="@+id/et_mobile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginRight="24dp"
-            android:layout_marginTop="8dp">
+            android:hint="手机号"
+            android:inputType="textEmailAddress" />
 
-            <com.hh.bamboobase.widget.ClearEditText
-                android:id="@+id/et_mobile"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="手机号"
-                android:inputType="textEmailAddress" />
-
-        </android.support.design.widget.TextInputLayout>
-
-        <!--  Password Label -->
-        <android.support.design.widget.TextInputLayout
+        <com.hh.bamboobase.widget.ClearEditText
+            android:id="@+id/et_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginRight="24dp"
-            android:layout_marginTop="8dp">
+            android:hint="密码"
+            android:inputType="textPassword" />
 
-            <com.hh.bamboobase.widget.ClearEditText
-                android:id="@+id/et_password"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="密码"
-                android:inputType="textPassword" />
-        </android.support.design.widget.TextInputLayout>
-
-        <android.support.v7.widget.AppCompatButton
+        <Button
             android:id="@+id/btn_login"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

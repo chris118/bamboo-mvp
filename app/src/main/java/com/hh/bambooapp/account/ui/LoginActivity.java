@@ -1,8 +1,8 @@
 package com.hh.bambooapp.account.ui;
 
-import android.support.v7.widget.AppCompatButton;
 import android.widget.EditText;
-import android.widget.TextView;
+
+import androidx.appcompat.widget.AppCompatButton;
 
 import com.hh.bambooapp.R;
 import com.hh.bambooapp.account.contract.LoginContract;

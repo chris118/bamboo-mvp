@@ -1,17 +1,17 @@
 package com.hh.bamboobase.base;
 
 import android.os.Bundle;
-import android.support.annotation.IdRes;
-import android.support.annotation.LayoutRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.annotation.IdRes;
+import androidx.annotation.LayoutRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
 import com.hh.bamboobase.R;
 import com.hh.bamboobase.widget.NavigationBar;
-import com.kaopiz.kprogresshud.KProgressHUD;
 import com.trello.rxlifecycle.components.support.RxFragment;
 
 import butterknife.ButterKnife;
@@ -30,7 +30,6 @@ public abstract class BaseFragment extends RxFragment {
     protected View mRootView;
     protected NavigationBar mNavigationBar;
     protected BaseActivity mActivity;
-    private KProgressHUD mHud;
     private Unbinder mUnbinder;
     private CompositeSubscription mCompositeSubscription;
     private Subscription mSubscription;
@@ -164,21 +163,6 @@ public abstract class BaseFragment extends RxFragment {
     }
 
 
-    public void showLoading() {
-        if (mHud == null) {
-            mHud = KProgressHUD.create(mActivity)
-                    .setStyle(KProgressHUD.Style.SPIN_INDETERMINATE);
-        }
-//        mLoadingDialog = LoadingDialog.show(this, mLoadingDialog);
-        mHud.show();
-    }
-
-    public void dismiss() {
-//        LoadingDialog.dismiss(mLoadingDialog);
-        if (mHud != null)
-            mHud.dismiss();
-    }
-
     protected void rxClick(View view, Action1<Void> action1) {
         if (mActivity != null) {
             mActivity.rxClick(view, action1);
@@ -213,7 +197,6 @@ public abstract class BaseFragment extends RxFragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        dismiss();
         if (mUnbinder != null ) {
             mUnbinder.unbind();
             mUnbinder = null;

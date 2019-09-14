@@ -75,7 +75,7 @@ public final class ImageUtils {
         Log.e("Bitmap", "startX = " + startX);
         Log.e("Bitmap", "startY = " + startY);
         canvas.drawText(text, startX, startY, paint);
-        canvas.save(canvas.ALL_SAVE_FLAG);//保存所有图层
+        canvas.save();//保存所有图层
         canvas.restore();
         if (bitmap == null) {
             Log.e("Bitmap", "bitmap is null");

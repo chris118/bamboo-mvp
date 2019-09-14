@@ -4,14 +4,15 @@ apply from: "config.gradle"
 buildscript {
     repositories {
         jcenter()
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.android.tools.build:gradle:3.4.2'
 
         //lambda
         classpath 'me.tatarka:gradle-retrolambda:3.6.0'
         // butterknife
-        classpath 'com.jakewharton:butterknife-gradle-plugin:8.8.0'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:10.2.0'
 
         /*
         第 1 步：添加必要的插件

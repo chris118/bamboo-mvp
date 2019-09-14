@@ -1,13 +1,14 @@
 package com.hh.bamboobase.widget.refreshview.view;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.hh.bamboobase.R;
 import com.hh.bamboobase.widget.refreshview.XRefreshView;

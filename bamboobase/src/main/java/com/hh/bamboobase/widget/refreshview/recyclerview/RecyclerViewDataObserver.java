@@ -1,6 +1,6 @@
 package com.hh.bamboobase.widget.refreshview.recyclerview;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.hh.bamboobase.widget.refreshview.XRefreshView;
 

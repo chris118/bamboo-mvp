@@ -1,17 +1,17 @@
 package com.hh.bamboobase.base;
 
 import android.os.Bundle;
-import android.support.annotation.IdRes;
-import android.support.annotation.LayoutRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.view.KeyEvent;
 import android.view.View;
+
+import androidx.annotation.IdRes;
+import androidx.annotation.LayoutRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import com.hh.bamboobase.R;
 import com.hh.bamboobase.utils.RxHelper;
 import com.hh.bamboobase.widget.NavigationBar;
-import com.kaopiz.kprogresshud.KProgressHUD;
 import com.trello.rxlifecycle.components.support.RxAppCompatActivity;
 
 import org.simple.eventbus.EventBus;
@@ -31,7 +31,6 @@ public abstract class BaseActivity extends RxAppCompatActivity {
 
     public NavigationBar mNavigationBar;
     protected BaseActivity mContext;
-    private KProgressHUD mHud;
     private CompositeSubscription mCompositeSubscription;
     private Subscription mSubscription;
     private Unbinder mUnbinder;
@@ -188,7 +187,6 @@ public abstract class BaseActivity extends RxAppCompatActivity {
         EventBus.getDefault().unregister(this);
         unSubscribe();
         unsubscribeEvents();
-        dismiss();
         if(mUnbinder != null){
             mUnbinder.unbind();
         }
@@ -203,22 +201,6 @@ public abstract class BaseActivity extends RxAppCompatActivity {
             return true;
         }
         return super.onKeyDown(keyCode, event);
-    }
-
-
-    public void showLoading() {
-        if(mHud == null){
-            mHud =  KProgressHUD.create(this)
-                    .setStyle(KProgressHUD.Style.SPIN_INDETERMINATE);
-        }
-//        mLoadingDialog = LoadingDialog.show(this, mLoadingDialog);
-        mHud.show();
-    }
-
-    public void dismiss() {
-//        LoadingDialog.dismiss(mLoadingDialog);
-        if(mHud != null)
-            mHud.dismiss();
     }
 
     public void rxClick(View view, Action1<Void> action1) {
